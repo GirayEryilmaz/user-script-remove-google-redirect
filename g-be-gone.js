@@ -15,6 +15,6 @@ var anchors = document.getElementsByTagName("a");
 
 for (var i = 0; i < anchors.length; i++) {
     anchors[i].onmousedown = null;         // needed for all
-    anchors[i].removeAttribute('jsaction') // needed for images
+    anchors[i].removeAttribute('jsaction'); // needed for images
 
 }
